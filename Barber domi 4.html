@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>The Barber Domi | Barbería en Sabadell</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:900,700,400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', Arial, sans-serif;
+      margin: 0;
+      background: #111;
+      color: #fff;
+    }
+    header {
+      background: #222 url('https://img.freepik.com/vector-gratis/vector-textura-patron-fondo-negro_1203-397.jpg') center center/cover;
+      text-align: center;
+      padding: 40px 10px 20px 10px;
+    }
+    .logo {
+      width: 130px;
+      border-radius: 10px;
+      background: #111;
+      box-shadow: 0 0 10px #88000080;
+    }
+    h1 {
+      font-size: 2.8em;
+      margin: 15px 0 5px 0;
+      letter-spacing: 2px;
+      color: #e02a2a;
+      font-weight: 900;
+    }
+    .subtitle {
+      font-size: 1.2em;
+      color: #ccc;
+      margin-bottom: 8px;
+    }
+    .contact-info, .social-bar, .services-bar, .normas, .horario, .servicios-extra {
+      max-width: 900px;
+      margin: 40px auto 20px auto;
+      background: #181818;
+      border-radius: 16px;
+      box-shadow: 0 0 15px #00000044;
+      padding: 28px;
+    }
+    .contact-info strong {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 700;
+      color: #e02a2a;
+    }
+    .contact-datos {
+      margin: 18px 0 0 0;
+      font-size: 1.1em;
+      color: #ececec;
+    }
+    .social-bar {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      font-size: 1.25em;
+    }
+    .social-bar a {
+      color: #c72d2d;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .gallery {
+      display: flex;
+      gap: 15px;
+      overflow-x: auto;
+      margin: 36px auto;
+      padding: 12px 0;
+      max-width: 960px;
+      justify-content: center;
+    }
+    .gallery img {
+      border-radius: 12px;
+      box-shadow: 0 0 8px #111;
+      width: 285px;
+      height: 210px;
+      object-fit: cover;
+      background: #222;
+      transition: transform .18s;
+    }
+    .gallery img:hover {
+      transform: scale(1.07);
+    }
+    .services-bar table {
+      width: 100%;
+      color: #fff;
+      background: #232323;
+      border-radius: 8px;
+      margin-top: 8px;
+      border-collapse: collapse;
+      font-size: 1.08em;
+    }
+    .services-bar th, .services-bar td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #333;
+    }
+    .services-bar th {
+      background: #e02a2a;
+      color: #fff;
+    }
+    .services-bar td.price {
+      color: #e4d025;
+      font-weight: bold;
+      font-size: 1.12em;
+    }
+    .services-bar td.time {
+      color: #aaa;
+    }
+    .horario table {
+      width: 320px;
+      background: #202020;
+      color: #fff;
+      margin: 15px 0;
+      border-radius: 8px;
+      border-collapse: collapse;
+      font-size: 1.1em;
+    }
+    .horario th, .horario td {
+      padding: 8px 14px;
+      border-bottom: 1px solid #232323;
+    }
+    .horario th {
+      background: #e02a2a;
+      color: #fff;
+    }
+    footer {
+      text-align: center;
+      font-size: 1em;
+      color: #bbb;
+      margin: 36px 0 10px 0;
+    }
+    .servicios-extra ul {
+      columns: 2;
+      padding-left: 18px;
+    }
+    .normas ul {
+      padding-left: 18px;
+      list-style: square;
+    }
+    @media (max-width: 700px) {
+      .gallery { flex-direction: column; align-items: center; }
+      .services-bar table, .horario table { width: 100%; font-size: 1em; }
+      .servicios-extra ul { columns: 1;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="c:\Users\david\Downloads\80e28cc1cb2e425ebb66a0bebdd70a-the-barber-domi-logo-3b28af4fa7c04affb42d96316bc81b-booksy.jpeg" class="logo" alt="Logo The Barber Domi" />
+    <h1>The Barber Domi</h1>
+    <div class="subtitle">Barbería moderna en Sabadell · Estilo, calidad y profesionalidad</div>
+  </header>
+  
+  <div class="contact-info">
+    <strong>Contacto</strong>
+    <div class="contact-datos">
+      Teléfono: <a href="tel:631042225" style="color:#e4d025; font-weight:bold; text-decoration: none;">631 04 22 25</a><br>
+      Dirección: Ronda de Zamenhof, 141, 08201 Sabadell, Barcelona
+    </div>
+  </div>
+  
+  <div class="horario">
+    <strong>Horario</strong>
+    <table>
+      <tr><th>Día</th><th>Horario</th></tr>
+      <tr><td>Lunes</td><td>10:00–14:00, 16:00–20:30</td></tr>
+      <tr><td>Martes</td><td>10:00–14:00, 16:00–20:30</td></tr>
+      <tr><td>Miércoles</td><td>10:00–14:00, 16:00–20:30</td></tr>
+      <tr><td>Jueves</td><td>10:00–14:00, 16:00–20:30</td></tr>
+      <tr><td>Viernes</td><td>10:00–14:00, 16:00–20:30</td></tr>
+      <tr><td>Sábado</td><td>10:00–19:00</td></tr>
+      <tr><td>Domingo</td><td style="color:#c72d2d">Cerrado</td></tr>
+    </table>
+  </div>
+  
+  <div class="social-bar">
+    <a href="https://instagram.com/thebarberdomi" target="_blank">Instagram: @thebarberdomi</a>
+    <a href="https://www.facebook.com/search/top?q=The%20barber%20domi%20barberia%20en%20sabadell" target="_blank">Facebook: The barber domi barberia en sabadell</a>
+  </div>
+  
+  <div class="gallery">
+    <img src="c:\Users\david\Downloads\80e28cc1cb2e425ebb66a0bebdd70a-the-barber-domi-logo-3b28af4fa7c04affb42d96316bc81b-booksy.jpeg" alt="Logo Barbería">
+    <img src="c:\Users\david\Downloads\4da4db1783e44d58924b42e3617f31-the-barber-domi-inspiration-41f2a806de2d4ef2baaf85f635abdc-booksy.jpeg" alt="Interior Barbería">
+    <img src="c:\Users\david\Downloads\1e4bb5b6b475457ea47503a241492a-the-barber-domi-inspiration-3277a371d4e64d17861d74487e4fac-booksy.jpeg" alt="Sillas Barbería">
+    <img src="c:\Users\david\Downloads\faf20f3dbdaf442c8a472a25dff31c-the-barber-domi-inspiration-4461eca0ce1d4e4f953715af97e1e8-booksy.jpeg" alt="Diseño corte cabello">
+  </div>
+  
+  <div class="services-bar">
+    <strong>Servicios</strong>
+    <table>
+      <tr>
+        <th>Servicio</th>
+        <th>Precio</th>
+        <th>Duración</th>
+      </tr>
+      <tr>
+        <td>Corte (más peinado)</td>
+        <td class="price">15 €</td>
+        <td class="time">30 min</td>
+      </tr>
+      <tr>
+        <td>COMBO CORTE + BARBA (todo tipo de corte)</td>
+        <td class="price">19 €</td>
+        <td class="time">50 min</td>
+      </tr>
+      <tr>
+        <td>Corte de niño hasta 10 años</td>
+        <td class="price">13 €</td>
+        <td class="time">30 min</td>
+      </tr>
+      <tr>
+        <td>Barba y Perfilado</td>
+        <td class="price">8 €</td>
+        <td class="time">30 min</td>
+      </tr>
+      <tr>
+        <td>Cejas (con navaja)</td>
+        <td class="price">3 €</td>
+        <td class="time">30 min</td>
+      </tr>
+      <tr>
+        <td>Corte Jubilado</td>
+        <td class="price">13 €</td>
+        <td class="time">30 min</td>
+      </tr>
+    </table>
+  </div>
+  
+  <div class="normas">
+    <strong>Normas de salud y seguridad</strong>
+    <ul>
+      <li>Ventilación adecuada</li>
+      <li>Desinfectantes/jabón disponibles para clientes</li>
+      <li>Desinfección de estaciones entre clientes</li>
+      <li>Desinfección de todas las superficies</li>
+    </ul>
+  </div>
+  
+  <div class="servicios-extra">
+    <strong>Servicios del local</strong>
+    <ul>
+      <li>Wi-Fi gratuito</li>
+      <li>Programa de fidelidad</li>
+      <li>Adaptado para niños</li>
+      <li>Se aceptan tarjetas de crédito</li>
+      <li>Se permiten mascotas</li>
+    </ul>
+  </div>
+  
+  <footer>
+    &copy; 2024 The Barber Domi · Sabadell. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
